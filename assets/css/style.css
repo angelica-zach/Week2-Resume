@@ -8,17 +8,27 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+/*header*/
 header{
   height:100px;
   padding:10px;
   border-bottom:0px;
   margin-bottom:30px;
 }
+/*navigation bar*/
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
 
 ul {
   list-style: none;
-  margin: 10;
+  margin: 10px;
   padding: 0;
+  align-items: flex-start;
 }
 li {
   float: right;
@@ -30,6 +40,64 @@ li a {
   padding: 14px ;
   text-decoration: none;
 }
+/*hero image*/
+.hero{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*grid for my work section*/
+#portfolio-grid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 800px;
+  height: 70vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas:
+  "project1 project1 "
+  "project1 project1 "
+  "project2 project3 "
+  "project4 project5 ";
+}
+
+#project1 {
+  grid-area: project1;
+  background-color:red;
+}
+
+#project2 {
+  grid-area: project2;
+  background-color:orange;
+}
+
+#project3 {
+  grid-area: project3;
+  background-color:yellow;
+}
+
+#project4 {
+  grid-area: project4;
+  background-color:green;
+}
+
+#project5 {
+  grid-area: project5;
+  background-color:blue;
+}
+
+.grid-area {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
 h1,
 h2,
 h3,
