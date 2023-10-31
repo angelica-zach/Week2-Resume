@@ -1,17 +1,20 @@
 # Week2-Resume
 ## Description
 In this project, i created a website to show off my design resume . This is the best format for my resume as potential employers can easily view my work (which also includes the page i just set up) by clicking links , as well as easy links to contact me , and can see physical evidence of my skills.
-/link/
+https://angelica-zach.github.io/Week2-Resume/
 ## Installation
 (please dont this is my portfolio 😆)
 Press the green  code button in the top right of the screen and copy your desired method (eg. for shh keys copy and use git clone in your terminal)
 
 ## Functions
-
+![code](assets/images/code-proj2.png)
+code showing how links are implemented in the pictures
+![link](assets/images/link-proj2.png)
+picture showing that nav section is linked to rest of page
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [angelica zachowski]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
