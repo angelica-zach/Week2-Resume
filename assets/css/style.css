@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root {
- --background:rgb(188, 188, 228);
+ --background:rgb(216, 216, 239);
  --text:rgb(18, 18, 18);
 
 }
@@ -35,6 +35,13 @@ header{
   border-bottom:0px;
   margin-bottom:30px;
 }
+.hero h2{
+  background-color: rgba(208, 226, 230, 0.6);
+}
+.hero img{
+  height: 100px;
+  width:auto;
+}
 /*navigation bar*/
 nav {
   display: flex;
@@ -47,7 +54,7 @@ nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 ul {
@@ -111,48 +118,54 @@ li a {
 
 #project1 {
   grid-area: project1;
-  background-image: url("/assets/images/code1.avif") ;
 }
 
 #project2 {
   grid-area: project2;
-  background-image: url("/assets/images/code2.jpg") ;
 }
 
 #project3 {
   grid-area: project3;
-  background-image: url("/assets/images/code3.jpg") ;
 }
 
 #project4 {
   grid-area: project4;
-  background-image: url("/assets/images/code4.jpg") ;
 }
 
 #project5 {
   grid-area: project5;
-  background-image: url("/assets/images/code5.jpg") ;
 }
+
 
 .grid-area {
   align-items: center;
   display: flex;
   position: relative;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-color: rgba(208, 226, 230, 0.6);
 }
 /*practise arena*/
 .grid-area .card-header {
   /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
   position: relative;
-  right:5%;
+  right:-20%;
   top:40%;
   padding: 0.4rem 1rem;
   background-color: rgba(0,0,0,.5);
   color: white;
-  border: 2px  black;
+  border: 2px var(--text);
   border-radius:20px;
 }
 
+.grid-area img{
+  max-width: 80%;
+  height:auto;
+}
 
 /*footer*/
+footer{
+  display:flex;
+}
+#links{
+  display:flex;
+  justify-content:space-around;
+}
