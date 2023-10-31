@@ -1,13 +1,12 @@
 * {
   box-sizing: border-box;
 }
+/*setting up repeated items to avoid DRY*/
 :root {
  --background:rgb(216, 216, 239);
  --text:rgb(18, 18, 18);
 
 }
-
-
 
 body {
   margin: 0;
@@ -143,9 +142,9 @@ li a {
   position: relative;
   background-color: rgba(208, 226, 230, 0.6);
 }
-/*practise arena*/
+/*grid contents*/
 .grid-area .card-header {
-  /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+  /* use position and negative margins to move title of card over */
   position: relative;
   right:-20%;
   top:40%;
